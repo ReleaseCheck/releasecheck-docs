@@ -2,7 +2,7 @@
 
 ReleaseCheck is suitable for CI when a workflow needs deterministic evidence about a published npm or PyPI release. Use the JSON or SARIF output for automation and choose a policy for `MATCH`, `REVIEW`, `INCOMPLETE`, and operational failures that matches the repository's risk tolerance.
 
-The core CLI must be installed from a pinned release or built from a reviewed revision. Do not download an unpinned binary in a security-sensitive workflow. The official [GitHub Action](https://github.com/ReleaseCheck/releasecheck-action) provides checksum-verified acquisition of a released core binary for Ubuntu runners.
+The core CLI must be installed from a pinned release or built from a reviewed revision. Do not download an unpinned binary in a security-sensitive workflow. The official [GitHub Action](https://github.com/ReleaseCheck/releasecheck-action) provides checksum-verified acquisition of a released core binary for Ubuntu runners. The example uses `@main` for readability; pin a reviewed full commit SHA in a real workflow. A released core binary is required for the Action to run end to end.
 
 ReleaseCheck does not install the package under inspection and does not execute package lifecycle scripts or build backends.
 
