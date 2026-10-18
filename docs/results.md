@@ -11,6 +11,8 @@ ReleaseCheck produces evidence, not a universal safe/unsafe label.
 
 `MATCH` does not prove that code is safe. `REVIEW` does not prove maliciousness.
 
+Machine-readable reports also include a stable `reason_code`, `explanation`, `evidence_missing`, `evidence_conflicts`, and `recommended_action`. These fields explain the evidence state and next review step; they do not turn ReleaseCheck into a malware detector or trust authority.
+
 ## Comparison categories
 
 Reports can identify identical files, source-only files, artifact-only files, modified files, type changes, and unverifiable files. Wheels, compiled extensions, bundled files, generated files, and documentation can legitimately differ from source.
