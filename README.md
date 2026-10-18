@@ -32,7 +32,7 @@ The core repository owns implementation, tests, fixtures, architecture, security
 
 ## Current status
 
-ReleaseCheck is pre-v0.1.0. Phase 15 remediation is complete and the hosted cross-platform test matrix passes; Phase 16 independent re-audit is required before release validation. No public `v0.1.0` release exists. The guides describe supported behavior and limitations without claiming that provenance or package safety is fully verified.
+ReleaseCheck is pre-v0.1.0. Phase 15 remediation and the independent Phase 16 re-audit are complete, and the hosted cross-platform test matrix passes. Phase 17 hosted release validation remains open: no public `v0.1.0` release exists and the Action has not completed a live run against one. The guides describe supported behavior and limitations without claiming that provenance or package safety is fully verified.
 
 ## Contributing
 
