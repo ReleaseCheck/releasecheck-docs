@@ -2,7 +2,7 @@
 
 ReleaseCheck reports deterministic release-integrity evidence. It does not prove that a package is safe, non-malicious, or free of vulnerabilities.
 
-Important limitations in the current pre-v0.1.0 state (Phase 15 remediation complete; Phase 16 independent re-audit required) include:
+Important limitations in the current pre-v0.1.0 state (Phase 15 remediation and Phase 16 independent re-audit complete; Phase 17 hosted release validation open) include:
 
 - source-to-commit binding is not yet a complete cryptographic trust decision;
 - provenance may be detected or parsed without being sufficient to establish a stronger conclusion;
