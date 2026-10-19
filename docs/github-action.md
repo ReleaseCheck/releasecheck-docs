@@ -4,4 +4,4 @@ The [official Action repository](https://github.com/ReleaseCheck/releasecheck-ac
 
 It does not contain a second verification engine. This keeps registry behavior, archive handling, comparison semantics, and report contracts in the [core repository](https://github.com/ReleaseCheck/releasecheck).
 
-The Action currently targets Ubuntu runners and supports the core's `npm` and `pypi` paths. A live end-to-end workflow requires a matching public core release; the project is currently pre-v0.1.0, its independent Phase 16 re-audit is complete, and hosted release validation remains open. The Action repository contains a manual E2E workflow that consumes an explicit released version; its existence is not evidence that a public release has been tested.
+The Action currently targets Ubuntu runners and supports the core's `npm` and `pypi` paths. The public `v0.1.2` core release has passed the tag-driven release workflow, and the Action E2E workflow has passed against that exact released binary. The Action repository contains a manual E2E workflow that consumes an explicit released version; future changes must preserve checksum verification and exit-status propagation.
