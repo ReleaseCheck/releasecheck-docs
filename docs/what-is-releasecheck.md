@@ -26,4 +26,6 @@ The tool reports deterministic evidence, observations, warnings, and limitations
 
 ReleaseCheck does not install packages, execute package code, run lifecycle scripts, execute Python build backends, detect all malware, scan vulnerabilities, generate SBOMs, reproduce arbitrary builds, or implement Sigstore or SLSA.
 
+ReleaseCheck overlaps with those tools by design, but has a narrower role: it compares one selected npm or PyPI release artifact with the source identity and release reference claimed by its metadata, then reports the evidence and limitations in a common format. It does not replace registry signatures, attestations, provenance systems, reproducibility builders, or repository-health scanners.
+
 See the [core architecture](https://github.com/ReleaseCheck/releasecheck/blob/main/docs/DESIGN.md) and [security policy](https://github.com/ReleaseCheck/releasecheck/blob/main/SECURITY.md) for technical boundaries.
