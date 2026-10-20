@@ -7,7 +7,8 @@
 
 ## Unreleased
 
-- Refreshed repository status to align with the core Phase 16 completion and Phase 17 hosted release-validation gate.
+- Refreshed installation and CI guidance to use the public v0.1.2 core release and passing Action E2E evidence.
+- Added guidance for interpreting ReleaseCheck alongside Sigstore, SLSA, GitHub attestations, and registry attestations.
 - Created the public documentation repository for the initial three-repository organization architecture.
 - Added user-facing orientation, quickstart, CLI, results, CI, Action, limitations, and troubleshooting guides.
 

@@ -17,6 +17,7 @@ Guides for using [ReleaseCheck](https://github.com/ReleaseCheck/releasecheck), a
 | Add checks to continuous integration | [CI usage](docs/ci.md) |
 | Use the official GitHub Action | [GitHub Action](docs/github-action.md) |
 | Understand what the tool cannot establish | [Limitations](docs/limitations.md) |
+| Interpret provenance and attestations | [Attestations](docs/attestations.md) |
 | Troubleshoot or find the right issue tracker | [FAQ](docs/faq.md) |
 
 ## How the repositories fit together

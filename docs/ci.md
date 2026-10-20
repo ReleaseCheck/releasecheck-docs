@@ -14,7 +14,7 @@ ReleaseCheck does not install the package under inspection and does not execute 
   with:
     ecosystem: npm
     package: example-package
-    releasecheck-version: 0.1.0
+    releasecheck-version: 0.1.2
     format: sarif
     output: releasecheck.sarif
 ```
