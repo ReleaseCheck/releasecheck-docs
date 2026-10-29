@@ -1,8 +1,16 @@
-# ReleaseCheck Documentation
+<p align="center">
+  <img src="docs/assets/releasecheck-docs-banner.png" alt="ReleaseCheck Docs: understand the evidence and use the verifier" width="100%">
+</p>
 
-![Core CI](https://github.com/ReleaseCheck/releasecheck/actions/workflows/ci.yml/badge.svg?branch=main) ![Action CI](https://github.com/ReleaseCheck/releasecheck-action/actions/workflows/ci.yml/badge.svg?branch=main) ![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue)
+<p align="center">
+  Guides for using <a href="https://github.com/ReleaseCheck/releasecheck">ReleaseCheck</a>, a tool that compares published npm and PyPI packages with their claimed source releases.
+</p>
 
-Guides for using [ReleaseCheck](https://github.com/ReleaseCheck/releasecheck), a tool that compares published npm and PyPI packages with their claimed source releases.
+<p align="center">
+  <a href="https://github.com/ReleaseCheck/releasecheck/actions/workflows/ci.yml"><img src="https://github.com/ReleaseCheck/releasecheck/actions/workflows/ci.yml/badge.svg?branch=main" alt="Core CI"></a>
+  <a href="https://github.com/ReleaseCheck/releasecheck-action/actions/workflows/ci.yml"><img src="https://github.com/ReleaseCheck/releasecheck-action/actions/workflows/ci.yml/badge.svg?branch=main" alt="Action CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Apache-2.0 license"></a>
+</p>
 
 [Core and implementation](https://github.com/ReleaseCheck/releasecheck) · [GitHub Action](https://github.com/ReleaseCheck/releasecheck-action) · [Documentation issues](https://github.com/ReleaseCheck/releasecheck-docs/issues)
 
