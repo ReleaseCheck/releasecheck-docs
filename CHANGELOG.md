@@ -7,6 +7,8 @@
 
 ## Unreleased
 
+- Corrected CI and Action guidance to describe Ubuntu, macOS, and Windows support.
+- Added practical interoperability guidance for npm, GitHub, Sigstore, and PyPI attestation verification.
 - Refreshed installation and CI guidance to use the public v0.1.2 core release and passing Action E2E evidence.
 - Added guidance for interpreting ReleaseCheck alongside Sigstore, SLSA, GitHub attestations, and registry attestations.
 - Created the public documentation repository for the initial three-repository organization architecture.
