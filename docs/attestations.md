@@ -14,3 +14,14 @@ ReleaseCheck can report provenance-shaped evidence alongside its deterministic a
 For the exact verification commands and primary references, see the [core attestation interoperability document](https://github.com/ReleaseCheck/releasecheck/blob/main/docs/ATTESTATIONS.md).
 
 The safe interpretation is additive: verify an attestation with its ecosystem's official verifier, then use ReleaseCheck to inspect what was published and how it relates to the claimed source release. A `MATCH` result is not a malware or trust decision, and a difference is not automatically malicious.
+
+### Practical interoperability boundary
+
+Use the ecosystem verifier first when a package publishes attestations:
+
+- npm: `npm audit signatures --json --include-attestations`
+- GitHub artifacts: `gh attestation verify <artifact> -R <owner>/<repo>`
+- Sigstore artifacts: the appropriate Cosign verification command for the artifact format
+- PyPI: a PEP 740-compatible attestation verifier
+
+Then treat the successful external result as additional evidence alongside the ReleaseCheck report. ReleaseCheck v0.1.2 does not execute those commands internally and does not convert a parsed or externally supplied attestation into a source-equivalence or malware verdict.
